@@ -1,0 +1,20 @@
+{
+  "sdr_config": {
+    "device": "ADALM-Pluto",
+    "uri": "ip:192.168.2.1",
+    "sample_rate": 2e6,
+    "center_frequency": 970e6,
+    "fs": 100e3,
+    "tx_hardwaregain_chan0": -10,
+    "rx_hardwaregain_chan0": 60,
+    "gain_control_mode_chan0": "slow_attack",
+    "tx_cyclic_buffer": 1,
+    "bw": 2e6,
+    "rx_buffer_size": 32768
+  },
+  "record_config": {
+    "datatypes": ["float32"],
+    "datatype": "float32",
+    "duration_sec": 30
+  }
+}
